@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best and top engineering college in Noida | New Delhi | JIIT </title>
+    <link rel="stylesheet" href="p1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href=https://www.jiit.ac.in/sites/default/files/logo_0.png type="image/x-icon">
+    <!-- ------------------------------------------------------------------------------------------------------------------ -->
+    <script>
+        function formSubmit() {
+            let dp = confirm("DO YOU WANT TO SUBMIT THE FORM ?");
+            if (dp) {
+                alert('FORM SUCCESSFULLY SUBMITTED!! ');
+            }
+            else {
+                alert(' PLEASE FILL THE FORM CORRECTLY!! ');
+            }
+
+        }
+        function download() {
+            alert('FILE SUCCESSFULLY DOWNLOADED!! ');
+        }
+
+
+        function validatePhone()/*This function validates the phone number*/ {
+            var phone = document.getElementById("phone").value;
+            var pattern = /^\d{10}$/;/*10 digit phone number required*/
+            if (pattern.test(phone)) {
+                document.getElementById("msg2").innerHTML = "Select course you want to opt for: ";
+            }
+            else {
+                document.getElementById("msg2").innerHTML = "Invalid phone number!Try again.";
+            }
+        }
+        function enquirydedo() {
+            let name = prompt("ENTER YOUR VALID CONTACT NUMBER : ");
+            var patternn = /^\d{10}$/;
+            if (patternn.test(name)) {
+                alert('OUR ADMISSION CELL WILL CONTACT YOU SHORTLY !! ');
+            }
+            else {
+                alert('PLEASE ENTER VALID PHONE NUMBER');
+            }
+        }
+
+    </script>
+    <!-- ------------------------------------------------------------------------------------------------------------------------ -->
+</head>
+<!-- ############################################################################################################################### -->
+<!-- ############################################################################################################################### -->
+
+<body>
+    <div>
+        <H2 id="quick" onclick="enquirydedo();">QUICK ENQUIRY?</H2>
+    </div>
+    <div class="hi">
+        <img id="hii" src="https://www.jiit.ac.in/sites/default/files/logo_0.png" alt="JIIT">
+        <ul>
+            <li>
+                <H3> JAYPEE INSTITUE OF INFORMATION TECHNOLOGY , NOIDA</H3>
+            </li>
+            <li>
+                <H5>[ DEEMED TO BE UNIVERSITY UNDER SECTION 3 OF UGC ACT 2015 ]</H5>
+            </li>
+        </ul>
+        <i class="fa-solid fa-magnifying-glass" id="mglass"></i>
+        <input type="text" placeholder="search" id="ss">
+        <img class="hii2" src="https://www.jiit.ac.in/sites/all/themes/ibees/images/face-icon.jpg" alt="Facebook">
+        <img class="hii2" src="https://www.jiit.ac.in/sites/all/themes/ibees/images/linkd-icon.jpg" alt="LinkedIn">
+        <img class="hii2" src="https://www.jiit.ac.in/sites/all/themes/ibees/images/insta-icon.jpg" alt="Instagram">
+        <img class="hii2" src="https://www.jiit.ac.in/sites/all/themes/ibees/images/twitter-icon.jpg" alt="Twitter">
+    </div>
+    <!-- 1 ----------------------------------------------------------------------------------------------------------------- -->
+    <nav ID="NAVBAR">
+        <ul>
+            <li CLASS="containerr"> <a href="#">HOME </a></li>
+            <li CLASS="containerr"> <a href="#">ABOUT US </a></li>
+            <li CLASS="containerr"> <a href="#">ACADEMICS</a></li>
+            <li CLASS="containerr"> <a href="#">R&D </a></li>
+            <li CLASS="containerr"> <a href="#">ADMISSION </a></li>
+            <li CLASS="containerr"> <a href="#">PLACEMENT </a></li>
+            <li CLASS="containerr"> <a href="#">DLC </a></li>
+            <li CLASS="containerr"> <a href="#">STUDENT LIFE </a></li>
+            <li CLASS="containerr"> <a href="#">RESOURCES </a></li>
+            <li CLASS="containerr"> <a href="#">ALUMNI </a></li>
+            <li CLASS="containerr"> <a href="#">APPROVALS </a></li>
+            <li CLASS="containerr"> <a href="#">INTERNATION CELL </a></li>
+            <li CLASS="containerr"> <a href="#">INNOVATION HUB </a></li>
+        </ul>
+    </nav>
+    <!-- 2----------------------------------------------------------------------------------------------------------------- -->
+
+    <section id="jiit">
+        <div>
+            <div>
+                <h2 class="jiit2">YOUR GROWTH IS OUR AIM</h2>
+                <H5 class="jiit2">RANKED IN TOP 100 INSTITUIONS BY MOE SINCE 2016</H5>
+            </div>
+            <form action="backend.php" id="myform">
+                <pre><h1 id="jiitform">               ADMISSIONS 2024!!!!</h1> <i class="fa-regular fa-calendar-days fa-2xl" style="color: #e51f47;" id="calendar"></i> </pre>
+                <pre class="ffont">       NAME: <input type="text" name="myname" required> </pre>
+
+                <pre class="ffont">       EMAIL: <input type="email" name="myemail" required></pre>
+
+                <pre
+                    class="ffont">     CONTACT NO : <input type="number" name="phone" id="phone" onblur="validatePhone();" required></pre>
+                <span id="msg2" style="color: orange"></span>
+
+                <pre class="ffont">       COURSE: <select name="mycourse" id="course" required>
+                    <option value="btech">B.TECH</option>
+                    <option value="imtech">INTEGRATED M.TECH</option>
+                    <option value="bsc">B.Sc</option>
+                    <option value="bba">BBA</option>
+                    <option value="bca">BCA</option>
+                    <option value="mtech">M.TECH</option>
+                    <option value="mba">MBA</option>
+                    <option value="msc">M.Sc</option>
+                </select></pre>
+                <input type="submit" value="SUBMIT" onclick="formSubmit();" id="jiitsubmit">
+                <br>
+            </form>
+        </div>
+    </section>
+    <!-- 3 --------------------------------------------------------------------------------------------------------------------- -->
+    <section id="logos">
+        <ul>
+            <li><img src="https://www.jiit.ac.in/sites/default/files/logo-1.jpg" alt="nirf"></li>
+            <li><img src="https://www.jiit.ac.in/sites/default/files/logo-2.jpg" alt=""></li>
+            <li><img src="https://www.jiit.ac.in/sites/default/files/logo-4.jpg" alt=""></li>
+            <li><img src="https://www.jiit.ac.in/sites/default/files/logo-5.jpg" alt=""></li>
+            <li><img src="https://www.jiit.ac.in/sites/default/files/logo-6.jpg" alt=""></li>
+            <li><img src="https://www.jiit.ac.in/sites/default/files/logo-7.jpg" alt=""></li>
+            <li><img src="https://www.jiit.ac.in/sites/default/files/logo-11.jpg" alt=""></li>
+            <li><img src="https://www.jiit.ac.in/sites/default/files/logo-13.jpg" alt=""></li>
+            <li><img src="https://www.jiit.ac.in/sites/default/files/aiira.jpg" alt=""></li>
+        </ul>
+    </section>
+    <hr>
+    <!--4 --------------------------------------------------------------------------------------------------------------------------- -->
+    <main id="papa">
+        <section id="ann">
+            <h1> ANNOUNCEMENTS <i class="fa-solid fa-bullhorn" id="horn"></i> </h1>
+
+            <hr>
+            <UL>
+                <li class="ann2"><a href="#">Admission in New BTech Programs </a></li>
+
+                <li class="ann2"> <a href="#"> PhD Admission-List of Selected Candidates</a></li>
+                <li class="ann2"><a href="#">10+2 based Counselling 20-21 June 2023</a></li>
+                <li class="ann2"><a href="#">End Semester Letter-Odd 2023</a></li>
+                <li class="ann2"><a href="#">Newly Launched Scheme of Teaching Associates (GyanVeer)</a></li>
+                <li class="ann2"><a href="#">Admission in New BTech Programs</a></li>
+            </UL>
+            <button id="ava">VIEW ALL</button>
+        </section>
+
+        <section id="ue">
+            <h1> UPCOMING EVENTS <img src="https://www.jiit.ac.in/sites/all/themes/ibees/images/upcom-event.png"
+                    alt="cal" id="cal">
+            </h1>
+            <hr>
+            <UL>
+                <li><a href="#">Two week Summer School on "Cyber Threat Intelligence and Forensics" organized By CSE &
+                        IT Department on July 3-15th, 2023</a></li>
+                <button class="dbtn" onclick="download();">DOWNLOAD</button>
+                <hr>
+
+                <li> <a href="#">One Week FDP on “Quantum Computing and Quantum Cryptography” will be organized by Dept
+                        of PMSE 17-21 July 2023 (Offline Mode).</a></li>
+                <button class="dbtn" onclick="download();">DOWNLOAD</button>
+                <hr>
+                <lI><a href="#">Dept of Biotechnology, is organizing 5 days Virtual FDP On “Advancements and Innovations
+                        in Cellular Communication and Signal Transduction” from 17th to 21st July, 2023. </a></li>
+                <button class="dbtn" onclick="download();">DOWNLOAD</button>
+        </section>
+        <section id="tandp">
+            <h1> TRAINING & PLACEMENT <img
+                    src="https://www.jiit.ac.in/sites/all/themes/ibees/images/training-icon-right.png" alt="topi"
+                    id="topi"> </h1>
+            <hr>
+            <pre> Few of our regular key recruiters for B.Tech, M.Tech, Dual 
+            Degree and MBA are… </pre>
+            <br>
+            <span><a href="https://www.deshawindia.com/" target="_blank"><img
+                        src="https://www.jiit.ac.in/sites/default/files/DESCO.jpg" alt=""> </a> </span>
+            <span><a href="https://www.google.com/" target="_blank"> <img
+                        src="https://www.jiit.ac.in/sites/default/files/google.png" alt=""></a> </span>
+            <span> <a
+                    href="https://www.amazon.in/?&ext_vrnc=hi&tag=googinhydr1-21&ref=pd_sl_4b3e4wrxds_b&adgrpid=60639568242&hvpone=&hvptwo=&hvadid=617721280315&hvpos=&hvnetw=g&hvrand=1229348455110524254&hvqmt=b&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9061699&hvtargid=kwd-311187680635&hydadcr=5841_2362028"
+                    target="_blank"><img src="https://www.jiit.ac.in/sites/default/files/amazon.jpg" alt=""></a> </span>
+            <span> <a
+                    href="https://stock.adobe.com/?clickref=1011lwUEY89n&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=buysellads"
+                    target="_blank"><img src="https://www.jiit.ac.in/sites/default/files/adobe.jpg" alt=""></a> </span>
+
+
+            <button id="vm">VIEW MORE</button>
+
+            <section id="annright">
+                <h1> ANNOUNCEMENTS <i class="fa-solid fa-bullhorn" id="horn2"></i>
+                </h1>
+                <h1 id="batch"> 2022 BATCH </H1>
+                <UL>
+                    <li>Above 99% placements</li>
+                    <li>1422 offers in Infosys, Wipro, Cognizant, DXC, TCS and Accenture (All Jaypee Universities)</li>
+                    <li>Highest Salary Package Rs 1.15 Cr by Amazon EMEA (01 Offer)</li>
+
+                </UL>
+                <button id="va">VIEW ALL</button>
+            </section>
+
+        </section>
+    </main>
+    <!-- --  5  ------------------------------------------------------------------------------------------------------------------ -->
+    <section id="papa2">
+        <section id="inf">
+            <h1> OUR <strong> INFRASTRUCTURE </strong></h1>
+            <h3>Jaypee Institute of Information Technology, Noida was established in the year 2001 and has been declared
+                as a "Deemed to be University" under Section 3 of UGC Act 1956 in the year 2004.</h3>
+            <hr>
+            <br>
+            <div id="infa1">
+                <div class="container">
+                    <img src="https://www.jiit.ac.in/sites/default/files/hostalsmall_0.jpg" alt="campus" id="cam"
+                        class="infab">
+                    <div class="middle">
+                        <div class="text">Campus is spread over a larger area of 73,864.81 (SQ.M.)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <img src="https://www.jiit.ac.in/sites/default/files/technical-hub-thumb_1_0.jpg" alt="hostel"
+                        id="hostel" class="infab">
+                    <div class="middle">
+                        <div class="text">Separate facilities for boys and girls with various amenities
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <img src="https://www.jiit.ac.in/sites/default/files/labsmallsizethumb_0.jpg" alt="labs" id="labs"
+                        class="infab">
+                    <div class="middle">
+                        <div class="text">Equipped with state-of-the-art facilities to develop students’ practical
+                            skills
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="infa1-1">
+                <h3>CAMPUS</h3>
+                <h3>HOSTEL</h3>
+                <h3> LABS</h3>
+            </div>
+
+            <div id="infa2">
+                <div class="container">
+                    <img src="https://www.jiit.ac.in/sites/default/files/visual-arts-thumb.jpg" alt="va" id="VA"
+                        class="infab">
+                    <div class="middle">
+                        <div class="text">Placing emphasis on the expression of thoughts and ideas through various art
+                            forms
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="https://www.jiit.ac.in/sites/default/files/performing-arts-thumb_0_1.jpg" alt="pa" id="PA"
+                        class="infab">
+                    <div class="middle">
+                        <div class="text">From drama to dance and music to fashion, every opportunity is given to
+                            showcase talent
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="https://www.jiit.ac.in/sites/default/files/sports-thumb_1_1.jpg" alt="gs" id="GS"
+                        class="infab">
+                    <div class="middle">
+                        <div class="text">Well-equipped fitness centre, equipment and courts to encourage the sportsman
+                            sprit in all
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="infa2-1">
+                <h3>VISUAL ARTS</h3>
+                <h3>PERFORMING ARTS</h3>
+                <h3> GAMES AND SPORTS</h3>
+            </div>
+        </section>
+        <section id="atu">
+            <h1>ABOUT <strong>THE UNIVERSITY </strong></h1>
+            <h3>JIIT' state-of-the-art, environmentally conditioned campus comprises smart buildings with Wi-Fi
+                connectivity covering the Academic Block, Business School Faculty Residences, Student Hostels and
+                Annapurna.</h3>
+            <hr>
+            <br>
+            <div>
+                <iframe src="https://www.youtube.com/embed/BQvKZlprSps" frameborder="0" height="600px"
+                    width="730px"></iframe>
+            </div>
+        </section>
+    </section>
+    <!-- --- 6 -------------------------------------------------------------------------------------------------------------------------- -->
+    <div id="international">
+        <img src="https://st2.depositphotos.com/3591429/10895/i/950/depositphotos_108955066-stock-photo-students-learning-together.jpg"
+            alt="students" id="interimage">
+        <div id="inter">
+            <h1 class="inter1"> <strong>INTERNATIONAL STUDENT CELL </strong></h1>
+            <H2 class="inter1">Let’s help you live your dream</H2>
+            <h3>
+                <pre class="inter1">University is having an amazing infrastructure. JIIT has provided with a
+             number of opportunities of grow and explore skills.</pre>
+            </h3>
+            </span>
+            <button>READ MORE</button>
+        </div>
+    </div>
+
+    <!-- -- 7 -------------------------------------------------------------------------------------------------------------------------- -->
+    <div id="ju">
+        <h1 class="ju1">JAYPEE <STRONG>UNIVERSITIES</STRONG></h1>
+        <H3 class="ju1">The state-of-the-art campuses comprising smart buildings with Internet, with Wi-Fi connectivity
+        </H3>
+        <hr>
+        <div id="jiithijiit" class="ju1">
+
+            <a href="#"><img src="https://www.jiit.ac.in/sites/default/files/1.jpg" alt="jiit"></a>
+
+            <a href="https://www.juet.ac.in/" target="_blank"><img
+                    src="https://www.jiit.ac.in/sites/default/files/juet.jpg" alt="juet"></a>
+
+            <a href="http://www.juit.ac.in/" target="_blank"><img
+                    src="https://www.jiit.ac.in/sites/default/files/juit.jpg" alt="juit"></a>
+
+            <a href="http://jaypeeu.ac.in/" target="_blank"> <img
+                    src="https://www.jiit.ac.in/sites/default/files/JUA_0.jpg" alt="jua">
+            </a>
+
+
+
+        </div>
+        <div id="jname">
+            <h2>JIIT</h2>
+            <h2>JUET</h2>
+            <h2>JUIT</h2>
+            <h2>JUA</h2>
+        </div>
+    </div>
+    <!-- -------- 8 ---------------------------------------------------------------------------------------------------------- -->
+    <hr id="line">
+    <footer id="foot">
+        <div id="ql">
+            <a href="#">
+                <h3>QUICK LINKS</h3>
+            </a>
+            <hr>
+            <ul>
+                <li> <a href="#">ABOUT JIIT</a></li>
+                <li><a href="#">GOVERNANCE</a></li>
+                <li><a href="#">MOA</a></li>
+                <li><a href="#">ACCOUNTS AND FINANCE</a></li>
+            </ul>
+            <a href="#">
+                <h3>REACH US</h3>
+                <hr>
+            </a>
+
+        </div>
+        <div id="aca">
+            <a href="#">
+                <h3>ACADEMICS</h3>
+            </a>
+            <hr>
+            <ul>
+                <li> <a href="#">TEACHING METHODOLGY</a></li>
+                <li><a href="#">JAYPEE BUSINESS SCHOOL</a></li>
+                <li><a href="#">COMPUTER SCIENCE</a></li>
+                <li><a href="#">ELECTRONICS</a></li>
+                <li><a href="#">FINANCE</a></li>
+            </ul>
+            <a href="#">
+                <h3>SITEMAP</h3>
+                <hr>
+            </a>
+
+        </div>
+        <div id="rd">
+            <a href="#">
+                <h3>R&D</h3>
+            </a>
+            <hr>
+            <ul>
+                <li> <a href="#">GUIDELINES FOR RESEACH</a></li>
+                <li><a href="#">CENTER FOR RESEARCH</a></li>
+                <li><a href="#">RESEARCH GROUPS</a></li>
+                <li><a href="#">SPONSORED PROJECTS</a></li>
+
+            </ul>
+            <a href="#">
+                <h3>CONTACT US</h3>
+                <hr>
+            </a>
+
+        </div>
+        <div id="lastbox">
+
+
+            <div id="last">
+                <div id="last1">
+                    <img src="https://www.jiit.ac.in/sites/all/themes/ibees/images/footer-logo.png" alt="jiit">
+                </div>
+                <div ID="last2">
+                    <button style="font-size:24px" id="last2-1">WEBMAIL <i class="fa fa-envelope"></i></button>
+                    <BR>
+                    <button style="font-size:24px" id="last2-2">WEBPORTAL <span>&#64;</span> </button>
+                </div>
+            </div>
+
+            <div id="location">
+                <div>
+                    <i id="location-logo" class="fas fa-location"></i>
+                </div>
+                <div>
+                    <pre><h3 id="ladd"> A-10, Sector-62,  Noida-201 309,
+ Uttar Pradesh, India.</h3> </pre>
+                </div>
+
+            </div>
+            <div id="phone">
+                <div>
+                    <i class="fa-solid fa-phone-volume" id="pid"></i>
+                </div>
+                <div>
+                    <pre><h3 id="pno">24X7 Helpline No
+ +91-120-2400973 </h3> </pre>
+                </div>
+
+            </div>
+            <div id="mail">
+                <div>
+                    <i class="fa-sharp fa-solid fa-envelope" id="maillogo"></i>
+                </div>
+                <div>
+                    <pre><h3> <strong  id="mailid">admission@jiit.ac.in</strong>
+ </h3> </pre>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

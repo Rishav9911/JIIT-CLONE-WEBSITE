@@ -1,0 +1,722 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.hi {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    right: -40px;
+
+}
+
+.hi ul {
+    list-style: none;
+    position: relative;
+    top: -30px;
+    left: 65px;
+}
+
+.hi h3 {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hi h5 {
+    color: cadetblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#hii {
+    cursor: pointer;
+    width: 78px;
+    left: 88px;
+    position: relative;
+}
+
+#ss {
+    background: #edeaea;
+    position: relative;
+    top: 46px;
+    left: 154px;
+    width: 262px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#mglass {
+    position: relative;
+    left: 411px;
+    top: 55px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.hii2 {
+    position: relative;
+    top: 43px;
+    left: 161px;
+    width: 42px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+/* 1 ----------------------------------------------------------------------------------------------------------------- */
+#NAVBAR ul {
+    display: flex;
+    position: relative;
+    right: 40px;
+
+}
+
+#NAVBAR ul li {
+    list-style: none;
+
+}
+
+#NAVBAR ul li a {
+    display: block;
+    font-size: 25px;
+    list-style: none;
+    padding: 42px 18px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(59 59 163);
+    position: relative;
+    top: -72px;
+}
+
+#NAVBAR ul li a:hover {
+    background-color: #07076a;
+}
+
+
+/* <!-- 2----------------------------------------------------------------------------------------------------------------- --> */
+
+
+#jiit {
+    background: url('https://www.jiit.ac.in/sites/default/files/5_0.jpg') no-repeat center center/cover;
+    width: 1530px;
+    height: 550px;
+    position: relative;
+    bottom: 139px;
+    opacity: 1.5;
+    animation: jjj 7s ease-in-out 7s infinite;
+}
+
+
+@keyframes jjj {
+    0% {
+        background: url('https://www.jiit.ac.in/sites/default/files/5_0.jpg') no-repeat center center/cover;
+
+    }
+
+    25% {
+        background: url('https://www.jiit.ac.in/sites/default/files/home-banner-1.jpg') no-repeat center center/cover;
+
+    }
+
+    50% {
+        background: url('https://www.jiit.ac.in/sites/default/files/founder_0.jpg') no-repeat center center/cover;
+    }
+
+    75% {
+        background: url('https://www.jiit.ac.in/sites/default/files/home-banner.jpg') no-repeat center center/cover;
+    }
+
+    100% {
+        background: url('https://www.jiit.ac.in/sites/default/files/1_3_0.jpg') no-repeat center center/cover;
+    }
+
+}
+
+
+.jiit2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    position: relative;
+    top: 448px;
+    left: 156px;
+    color: white;
+    line-height: 29px;
+    letter-spacing: 3px;
+}
+
+#myform {
+    display: inline-block;
+    border-color: black;
+    background-color: black;
+    border-style: solid;
+    position: relative;
+    left: 1027px;
+    border-radius: 26px;
+    top: -62px;
+}
+
+#myform h1 {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: -74px;
+}
+
+#msg2 {
+    color: orange;
+    position: relative;
+    top: -14px;
+    left: 18px;
+}
+
+#calendar {
+    position: relative;
+    top: -57px;
+    left: 343px;
+    z-index: 100px;
+}
+
+.ffont {
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+}
+
+#jiitform {
+    color: white;
+}
+
+input[type="submit"] {
+    margin: auto;
+    display: block;
+}
+
+#jiitsubmit {
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: bold;
+    width: 132px;
+    letter-spacing: 3px;
+    height: 32px;
+}
+
+/* 3 ------------------------------------------------------------------------------------------------------------ */
+
+#logos ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logos ul li {
+    list-style: none;
+}
+
+/* --- 4  --------------------------------------------------------------------------------------------------------------------------- */
+#papa {
+    display: flex;
+}
+
+#ann {
+    border-style: solid;
+    border-color: rgb(135, 135, 192);
+    width: 340px;
+    background-color: rgb(219, 249, 249);
+    position: relative;
+    left: 69px;
+}
+
+#ava {
+    position: relative;
+    bottom: 15px;
+    left: 7px;
+}
+
+#ann ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 44px;
+}
+
+#ann ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#ann h1 {
+    position: relative;
+    bottom: -10px;
+    left: 31px;
+}
+
+#horn {
+    width: 41px;
+    position: relative;
+    left: 10px;
+    top: 0px;
+}
+
+#horn2 {
+    position: relative;
+    left: 8px;
+    top: -2px;
+}
+
+#ue {
+    border-style: solid;
+    border-color: rgb(225, 144, 94);
+    width: 495px;
+    background-color: rgb(219, 249, 249);
+    position: relative;
+    left: 117px;
+}
+
+#ue h1 {
+    position: relative;
+    bottom: -10px;
+    left: 31px;
+}
+
+#ue ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cal {
+    width: 41px;
+    position: relative;
+    left: 10px;
+    top: 8px;
+}
+
+.dbtn {
+    position: relative;
+    left: 329px;
+    top: 6px;
+}
+
+#topi {
+    width: 41px;
+    position: relative;
+    left: 10px;
+    top: 8px;
+}
+
+#tandp {
+    border-style: solid;
+    border-color: #9c9cd7;
+    width: 485px;
+    background-color: rgb(219, 249, 249);
+    position: relative;
+    left: 153px;
+    height: 330px;
+}
+
+#tandp h1 {
+    position: relative;
+    bottom: -10px;
+    left: 31px;
+}
+
+#vm {
+    position: relative;
+    left: 365px;
+}
+
+#tandp pre {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#tandp img {
+    cursor: pointer;
+    position: relative;
+    left: 18px;
+}
+
+#annright {
+    border-style: solid;
+    border-color: #9c9cd7;
+    width: 485px;
+    background-color: white;
+    position: relative;
+    left: -2px;
+    height: 312px;
+}
+
+#va {
+    position: relative;
+    top: -23px;
+    left: 391px;
+}
+
+#batch {
+    background-color: #a4a4df;
+    display: inline;
+    font-size: 27px;
+}
+
+/* --- 5 --------------------------------------------------------------------------------------------------------------------- */
+#papa2 {
+    display: flex;
+}
+
+#inf {
+    border-style: solid;
+    border-color: white;
+    width: 668px;
+    background-color: white;
+    position: relative;
+    left: 69px;
+}
+
+#inf h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #5151ffe8;
+    text-align: center;
+}
+
+#inf h3 {
+    font-family: sans-serif;
+    font-size: 27px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#infa1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#infa1-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#infa1 img:hover {
+    cursor: pointer;
+}
+
+#infa2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#infa2-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#infa2 img:hover {
+    cursor: pointer;
+}
+
+.infab {
+    border: 4px solid rgb(173, 171, 171);
+}
+
+#atu {
+    border-style: solid;
+    border-color: white;
+    width: 618px;
+    /* background-color: white; */
+    position: relative;
+    left: 100px;
+    height: 133px;
+    /* border: 10px solid black; */
+    top: 4px;
+}
+
+#atu h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #0b0ba7e8;
+    text-align: center;
+}
+
+#atu h3 {
+    font-family: sans-serif;
+    font-size: 27px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+/* ----- 6 --------------------------------------------------------------------------------------------------------------------------- */
+#interimage {
+    position: relative;
+    left: 309px;
+    width: 898px;
+    height: 360px;
+    opacity: 0.4;
+}
+
+#inter {
+    position: relative;
+    left: 400px;
+    bottom: 350px;
+    line-height: 40px;
+}
+
+#inter button {
+    background-color: orange;
+    position: absolute;
+    left: 271px;
+    cursor: pointer;
+    bottom: -47px;
+    border-radius: 7px;
+    font-weight: bold;
+    height: 40px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+#inter h1 {
+    font-size: 51px;
+}
+
+#inter h2 {
+    font-size: 40px;
+}
+
+#inter h3 {
+    font-size: 31px;
+}
+
+/* ---- 7 ------------------------------------------------------------------------------------------------------------------ */
+#jiithijiit {
+    display: flex;
+    justify-content: center;
+}
+
+.ju1 {
+    text-align: center;
+    line-height: 25px;
+}
+
+#ju {
+    position: relative;
+    top: -199px;
+    background-color: rgb(245, 242, 239);
+}
+
+#ju h1 {
+    color: #27b0b0;
+    position: relative;
+    top: 14px;
+}
+
+#ju h3 {
+    font-weight: lighter;
+}
+
+#jname {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#line {
+    position: relative;
+    bottom: 96px;
+}
+
+/* ----- 8 ---------------------------------------------------------------------------------------------------------------- */
+#foot {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(234, 234, 234);
+}
+
+#ql {
+    border-style: solid;
+    border-color: rgb(234, 234, 234);
+    width: 340px;
+    background-color: rgb(234, 234, 234);
+
+}
+
+#ql li a {
+    text-decoration: none;
+    color: black;
+}
+
+#aca {
+    border-style: solid;
+    border-color: rgb(234, 234, 234);
+    width: 340px;
+    background-color: rgb(234, 234, 234);
+}
+
+#aca li a {
+    text-decoration: none;
+    color: black;
+}
+
+#rd {
+    border-style: solid;
+    border-color: rgb(234, 234, 234);
+    width: 340px;
+    background-color: rgb(234, 234, 234);
+}
+
+#rd li a {
+    text-decoration: none;
+    color: black;
+}
+
+#last {
+    display: flex;
+}
+
+#last2-1 {
+    background-color: #ffa808;
+    border-radius: 6px;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 4px;
+    position: relative;
+    left: 13px;
+    border-color: #ffa808;
+    cursor: pointer;
+    top: 10px;
+}
+
+#last2-2 {
+    background-color: #0808a8;
+    border-radius: 6px;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    position: relative;
+    left: 13px;
+    border-color: #0808a8;
+    cursor: pointer;
+    top: 10px;
+}
+
+#location {
+    display: flex;
+}
+
+#lastbox {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#ladd {
+    font-size: 23px;
+    font-weight: lighter;
+
+}
+
+#location-logo {
+    width: 27px;
+    position: relative;
+    top: 29px;
+    color: blue;
+}
+
+#phone {
+    display: flex;
+    display: flex;
+    position: relative;
+    top: -20px;
+    left: 168px;
+}
+
+#pid {
+    width: 35px;
+    position: relative;
+    top: -9px;
+    color: blue;
+    right: 172px;
+}
+
+#pno {
+    font-size: 23px;
+    font-weight: lighter;
+    cursor: pointer;
+    position: relative;
+    bottom: 58px;
+    bottom: 41px;
+    right: 173px;
+}
+
+#mail {
+    display: flex;
+}
+
+#maillogo {
+    width: 35px;
+    position: relative;
+    bottom: 83px;
+    color: blue;
+}
+
+#mailid {
+    font-size: 23px;
+    cursor: pointer;
+    position: relative;
+    bottom: 109px;
+}
+
+#quick {
+
+    background-color: rgb(59 59 163);
+    color: white;
+    display: inline-block;
+    position: fixed;
+    left: 1239px;
+    z-index: 1000;
+    letter-spacing: 4px;
+    width: 276px;
+    height: 64px;
+    text-align: center;
+    padding: 2px;
+    bottom: -25px;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.infab {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .infab {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 24px 20px;
+}
